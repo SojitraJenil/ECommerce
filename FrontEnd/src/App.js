@@ -27,7 +27,7 @@ function App() {
     <>
       {/* <Maintenance />*/}
       {
-        (userId && token) ? <AllRoute /> :
+        (true) ? <AllRoute /> :
           <>
             <Routes>
               <Route path="/login" element={<Login />} />
